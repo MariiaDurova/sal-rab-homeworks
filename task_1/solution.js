@@ -19,6 +19,7 @@ function addInCartMessage(title, price) {
 
 function addInCartCountChange(value) {
 
+    
     let oldValue = value;
 
     let newValue;
@@ -33,7 +34,7 @@ function addInCartSumChange(sum, delta) {
     let difference = delta;
 
     let newSum = oldSum + difference; 
-    let newSumText = newSum + " ₽"; 
+    let newSumText = newSum + " ₽";
     newSumText = `${newSum} ₽`
 
     return newSumText;
